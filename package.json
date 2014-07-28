@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "./node_modules/.bin/mocha spec --compilers coffee:coffee-script/register --reporter spec --ui exports"
+  },
+  "dependencies": {
+    "noflo": "~0.5.7"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "coffee-script": "~1.7.1",
+    "mocha": "1.19.0"
+  },
+  "private": true
+}
