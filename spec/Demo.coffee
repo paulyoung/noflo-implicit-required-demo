@@ -18,6 +18,6 @@ describe 'Demo', ->
 
   describe 'foo', ->
 
-    it 'should be required', ->
+    it 'should not be required', ->
       required = component.inPorts.foo.isRequired()
-      expect(required).to.equal true
+      expect(required).to.equal false
